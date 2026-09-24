@@ -1,21 +1,41 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Welcome page</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>welcome</title>
+  <link rel = "stylesheet" href = "style.css">
 </head>
-<h1> Welcome </h1>
-<h5 style = "color: gray; text-align: center;"> Bienvenue </h5>
-<body>
-  <h2> Home </h2>
-   <p> This is where I post what I did </p>
-  <h2> About </h2>
-  <p> I am a student in the faculty of Polytechnics at <a href = "https://www.ucgraben.ac.cd"> UCG,</a> Butembo, Nord-Kivu </p>
-  <p1> Mail me: <tbody>
-    <a href="mailto: jkitasuvirwa@gmail.com"> my mail</a>
-  </tbody> </p1>
-</body>
 
+<body>
+
+  <header>
+    <h1>Jean-Luc Kitasuvirwa</h1>
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+
+  <nav id="menu">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="overlay" id="overlay"></div>
+
+  <main id="home">
+    <h2>Welcome</h2>
+    <p>
+      Personal website focused on mathematics, computation,systems thinking, my personal thoughts, and other random things.
+    </p>
+  </main>
+
+  <script src="main.js"></script>
+</body>
 </html>
